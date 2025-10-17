@@ -9,8 +9,6 @@ Lógica e Comportamento (JavaScript): Demonstrações de como manipulo o DOM (Do
 
 Boas Práticas: Todos os projetos são desenvolvidos com foco em performance, acessibilidade e na organização de código, seguindo convenções de nomenclatura e de commits.
 
-[Adapte esta linha] Você pode encontrar desafios de UI/UX, integrações com APIs ou estudos de Node.js, dependendo dos meus objetivos atuais.
-
 Objetivo:
 Meu objetivo principal é transformar conhecimento teórico em código prático e funcional. Este repositório reflete meu compromisso com o aprendizado contínuo e minha dedicação em construir projetos limpos, eficientes e de fácil manutenção.
 
