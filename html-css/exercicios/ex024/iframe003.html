@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 75vw;
+            display: block;
+            margin: auto;
+            height: 400px;
+            border: 2px solid pink;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.562);
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quasi nulla quidem, dolorem voluptatum ut incidunt possimus nostrum eius itaque blanditiis iusto quibusdam similique distinctio excepturi consequatur magni voluptate molestiae?</p>
+
+    <ul>
+        <li><a href="./paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="./paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="./paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo consequuntur perspiciatis eius pariatur velit commodi ea laboriosam dolor asperiores? Sapiente sunt quas impedit facilis, doloribus in! Adipisci unde culpa reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio eaque a dolor aliquid corrupti voluptatem optio ipsa ex, recusandae nemo, neque voluptatum laudantium eligendi aliquam laborum! Necessitatibus, nisi ea? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis aliquam nam ut nulla totam earum sapiente! Consequatur cum maiores omnis eaque! Ratione odio harum doloremque distinctio inventore incidunt voluptatibus nostrum?</p>
+
+    <iframe srcdoc="<h1>Escolha uma das páginas acima</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo consequuntur perspiciatis eius pariatur velit commodi ea laboriosam dolor asperiores? Sapiente sunt quas impedit facilis, doloribus in! Adipisci unde culpa reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio eaque a dolor aliquid corrupti voluptatem optio ipsa ex, recusandae nemo, neque voluptatum laudantium eligendi aliquam laborum! Necessitatibus, nisi ea? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis aliquam nam ut nulla totam earum sapiente! Consequatur cum maiores omnis eaque! Ratione odio harum doloremque distinctio inventore incidunt voluptatibus nostrum?</p><img src='./imagens/nanachi.jpg'>" frameborder="1" id="tela" name="frame">
+        <p>Infelizmente seu navegador não é compativel com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo consequuntur perspiciatis eius pariatur velit commodi ea laboriosam dolor asperiores? Sapiente sunt quas impedit facilis, doloribus in! Adipisci unde culpa reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio eaque a dolor aliquid corrupti voluptatem optio ipsa ex, recusandae nemo, neque voluptatum laudantium eligendi aliquam laborum! Necessitatibus, nisi ea? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis aliquam nam ut nulla totam earum sapiente! Consequatur cum maiores omnis eaque! Ratione odio harum doloremque distinctio inventore incidunt voluptatibus nostrum?</p>
+</body>
+</html>

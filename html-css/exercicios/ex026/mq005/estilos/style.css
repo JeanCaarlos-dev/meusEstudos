@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* ---MOBILE FIRST--- */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    
+    background-color: bisque;
+    
+    padding-top: 20px;
+    padding-bottom: 2px;
+
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.meu-menu {
+    display: none;
+}
+
+.meu-menu.ativo-mobile { /* MENU HAMBURGER */
+    position: fixed;
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.815);
+    background-attachment: fixed;
+    
+    top: 115px;
+    left: 0px;
+
+    height: 100vh;
+    width: 100vw;
+
+    gap: 50px;
+}
+
+ul > li {
+    font-size: 1.5em;
+    background-color: black;
+    height: 50px;
+    position: relative;
+}
+
+li > a {
+    display: inline-block;
+    margin-top: 1.5%;
+
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    
+}
+
+body > main {
+    width: 85%;
+    font-size: 1.2em;
+    text-align: justify;
+    margin: auto;
+}
+
+article {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+article > p {
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 600px) { /* ---DESKTOP VERSION--- */
+    header > menu > img {
+        display: none;
+    }
+
+    menu {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .meu-menu {
+        position: static;
+        background-color: bisque;
+        width: 30%;
+        display: inline-flex;
+
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    
+    ul > li {
+        font-size: 1.1em;
+
+        background: rgb(250, 217, 176);
+
+        height: fit-content;
+        position: static;
+    }
+
+    li > a {
+        color: black;
+    }
+
+    body > main {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    body > main {
+        width: 85%;
+    }
+
+    .meu-menu {
+        width: 30%;
+    }
+}
+

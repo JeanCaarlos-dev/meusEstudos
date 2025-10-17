@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* ESTILO PARA TELA */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1:#006b6b;
+    --cor2:#00b8b8;
+    --cor4:#00d4d4;
+    --cor3:#94ffff;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    color: white;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+ul > li{
+    display: inline-block;
+    padding: 5px 2px;
+    margin: 0px 10px;
+    background-color: var(--cor4);
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+article > h2 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+article > p {
+    margin: 10px 0px;
+    text-indent: 20px;
+    text-align: justify;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escondendo elemento</title>
+    <style>
+        body {
+            font: normal 1em Arial, Helvetica, Sans-serif;
+        }
+
+        div:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        div > p {
+        color: darkred;
+        display: none;
+        
+        }
+
+        div:hover > p {
+            color: white;
+            background-color: darkred;
+            display: block;
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Aqui temos o exemplo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vero sed voluptatibus iure eum, eveniet cupiditate unde sequi enim impedit. Doloribus fugiat repudiandae voluptatibus laudantium quos ex minima a temporibus.</p>
+    <div>
+        Passe com o mouse aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+</body>
+</html>
